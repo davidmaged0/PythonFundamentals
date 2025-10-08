@@ -1,5 +1,4 @@
-thislist = ["apple", "banana", "cherry", "apple", "cherry"]
-print(thislist)
-thislist[0] = "orange" ## list is ordered, changeable, allows duplicate values
-print("first item is", thislist[0])
-print("last item is", thislist[-1])
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+##print(thislist)
+#thislist[0] = "orange" ## list is ordered, changeable, allows duplicate values
+print(thislist[2:5]) ## from index 2 to index 5 (not included)
