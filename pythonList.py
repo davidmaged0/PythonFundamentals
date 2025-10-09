@@ -15,7 +15,16 @@ thislist2.extend(tropical)
 print(thislist2)
 ##
 thislist = ["apple", "banana", "cherry"]
-thistuple = ("kiwi", "orange")
-thislist.extend(thistuple)
+#thistuple = ("kiwi", "orange")
+#thislist.extend(thistuple)
+#print(thislist)
+#print(type(thislist))
+#To remove an item in a list, use the remove() method:
+#thislist.remove("banana")
+#print(thislist)
+#The pop() method removes the specified index, (or the last item if index is not
+#thislist.pop()
+#thislist.pop(-1)
+#del thislist[0:2]
+thislist.clear()
 print(thislist)
-print(type(thislist))
