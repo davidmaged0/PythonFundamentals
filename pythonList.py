@@ -1,21 +1,10 @@
-"""thislist = ["apple", "banana", "cherry"]
-for i in range(len(thislist)):
-  print(thislist[i])
-  """"""
-   
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
-
-i = 0
-while i < len(thislist):
-  print(thislist[i])
-  i += 1
-"""
-
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
-#newlist= thislist.copy()
-#newlist = thislist[:]
-newlist=list(thislist)
-#newlist.append("orange")
-#newlist.sort(reverse=True)
-print(newlist)
-#[print(x) for x in thislist]
+# join two lists
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+# for item in list2:
+#     list1.append(item)
+# list3 = list1 + list2
+list1.extend(list2)
+print(list1.count("a"))
+print(list1.reverse())
+print(list1)
