@@ -11,5 +11,11 @@ while i < len(thislist):
   i += 1
 """
 
-thislist = ["apple", "banana", "cherry"]
-[print(x) for x in thislist]
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+#newlist= thislist.copy()
+#newlist = thislist[:]
+newlist=list(thislist)
+#newlist.append("orange")
+#newlist.sort(reverse=True)
+print(newlist)
+#[print(x) for x in thislist]
