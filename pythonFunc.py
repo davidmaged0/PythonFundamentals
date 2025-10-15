@@ -54,3 +54,30 @@ print(func2(3))  # Output: 18
 print(func2(3, 4))  # Output: 12
 print(func2(3, 4, z=6))  # Output: 13
 
+####
+def seprateLine(): 
+    print('============')
+seprateLine()
+
+def my_function(*numbers):
+  total = 1
+  for num in numbers:
+    total *= num
+  return total
+
+print(my_function(1, 2, 3))
+print(my_function(10, 20, 30, 40))
+print(my_function(5))
+
+seprateLine()   
+
+def maxNUM(*numbers):
+    max_num = numbers[0]
+    for num in numbers:
+        if num > max_num:
+            max_num = num
+    return max_num
+
+maximum = maxNUM(10,30,40,20)
+print(maximum)
+    
